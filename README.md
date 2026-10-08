@@ -1,6 +1,6 @@
 # SOC-unisul
 
-Atividade ADS Unisul - Frontend de monitoramento de segurança SOC
+Atividade ADS unisul - Frontend de um site de monitoramento de segurança
 
 ## Sobre o tema
 
