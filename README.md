@@ -1,36 +1,21 @@
 # SOC-unisul
 
-Atividade ADS unisul - Frontend de um site de monitoramento de segurança
+Atividade ADS Unisul - Frontend de monitoramento de segurança SOC
 
 ## Sobre o tema
 
-SOC significa Security Operations Center (Centro de Operações de Segurança). É basicamente um time que fica monitorando a segurança de uma empresa 24/7, olhando pra ataques, tentativas de invasão, malware e essas coisas de cibersegurança. Eles precisam de ferramentas pra visualizar tudo isso em tempo real e tomar decisões rápido.
+SOC significa Security Operations Center, que é o centro de monitoramento e resposta à segurança de uma empresa. Ele acompanha possíveis ameaças, acessos suspeitos, tentativas de invasão e qualquer evento que possa comprometer os sistemas.
 
-A problemática é que as empresas recebem milhões de alertas de segurança todo dia, e sem uma boa interface pra visualizar isso, fica muito difícil de entender o que tá acontecendo. Daí surge a necessidade de um frontend bom, limpo e intuitivo.
+A problemática é que as organizações recebem muitos alertas e dados de segurança diariamente. Sem uma interface organizada, essas informações ficam difíceis de interpretar e podem atrasar a resposta a incidentes. Por isso, o frontend de um SOC precisa ser claro, funcional e fácil de acompanhar.
 
 ## Que problema ou tarefa está em jogo?
 
-Criar um frontend completo de um site/dashboard de monitoramento SOC. Um lugar onde um analista de segurança consiga visualizar:
-- Status geral da segurança
-- Alertas e incidentes acontecendo
-- Dados e métricas de segurança
-- Histórico de eventos
+A tarefa é desenvolver um frontend completo de um site voltado para monitoramento de segurança. A ideia é criar uma interface que ajude profissionais de segurança a acompanhar o estado dos sistemas, visualizar alertas, analisar dados e tomar decisões mais rápidas.
 
 ## Que evidência ou artefato será produzido?
 
-Um website completo com:
-- Homepage/Dashboard principal
-- Páginas de visualização de dados
-- Design responsivo (funciona no celular, tablet e desktop)
-- Código HTML, CSS e JavaScript organizado
-- Bem estruturado e fácil de navegar
+Será produzido um site completo com dashboard, cards de métricas, área de alertas, histórico de eventos e layout responsivo. O projeto deve ter uma aparência profissional, clara e voltada para o tema de cibersegurança.
 
 ## Como saberemos que o resultado ficou pronto?
 
-Quando o site:
-- Estiver todo funcional e sem erros
-- For responsivo e funcionar em qualquer tamanho de tela
-- Tiver um design limpo e profissional
-- Tiver todas as páginas e funcionalidades prontas
-- O código estiver bem organizado e legível
-
+O projeto estará concluído quando o site estiver funcionando corretamente, com layout bem organizado, navegação intuitiva, responsividade em diferentes telas e visual profissional. Também será um sinal de finalização quando todos os elementos principais estiverem desenvolvidos e prontos para apresentação.
