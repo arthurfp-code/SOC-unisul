@@ -41,7 +41,6 @@ monitoramento real, coleta de logs ou detecção de ameaças.
 - Matheus
 - Juan
 - Arthur
-- [Nome do quinto integrante]
 
 ## Documentação das Sprints
 
