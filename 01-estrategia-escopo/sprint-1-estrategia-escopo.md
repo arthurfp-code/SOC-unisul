@@ -326,12 +326,6 @@ Na Sprint 2, esse fluxo será detalhado por meio da arquitetura da informação,
 - [x] Documento revisado coletivamente pela equipe.
 - [x] Autoria e publicação da documentação registradas.
 
-A documentação da Sprint 1 foi elaborada e publicada por Rafael.
-A revisão coletiva e a validação das personas permanecem
-pendentes.
-
-As tarefas pendentes devem ser marcadas somente depois de serem realizadas.
-
 ## Referências
 
 1. Wazuh. Wazuh Dashboard — Components.  
