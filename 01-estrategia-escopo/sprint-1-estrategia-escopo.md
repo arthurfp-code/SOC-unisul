@@ -322,7 +322,7 @@ Na Sprint 2, esse fluxo será detalhado por meio da arquitetura da informação,
 - [x] Requisitos funcionais e de conteúdo definidos.
 - [x] Requisitos de usabilidade e acessibilidade registrados.
 - [x] Limites do escopo documentados.
-- [x] Hipóteses das personas validadas com usuários.
+- [ ] Hipóteses das personas validadas com usuários.
 - [x] Documento revisado coletivamente pela equipe.
 - [x] Autoria e publicação da documentação registradas.
 
