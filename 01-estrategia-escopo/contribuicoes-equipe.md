@@ -14,13 +14,12 @@ O trabalho entregue na Sprint 1 inclui a definição do problema, a proposta do 
 
 A participação de todos na construção do projeto foi relatada pelo grupo. Para não atribuir atividades sem confirmação, a tabela separa a participação informada do detalhamento individual, que deve ser preenchido pelos próprios integrantes.
 
-| Integrante | Participação informada | Contribuição específica e evidência |
+| Integrante | Contribuição informada | Evidência do artefato |
 | --- | --- | --- |
-| Rafael | Colaboração na elaboração da Sprint 1 |READ ME e ideias |
-| Matheus | Colaboração na elaboração da Sprint 1 | Revisão documental |
-| Juan | Colaboração na elaboração da Sprint 1 | Revisão documental |
-| Arthur | Colaboração na elaboração da Sprint 1 | Markdown sprint 1 |
-
+| Rafael | README e ideias para a apresentação do projeto | [a9003b1](https://github.com/arthurfp-code/SOC-unisul/commit/a9003b16bdf03c9f2ac044b8b160238ab41851f0), [7532b6d](https://github.com/arthurfp-code/SOC-unisul/commit/7532b6df50319068a429ae196e374b320a26b1de) e [c3664a5](https://github.com/arthurfp-code/SOC-unisul/commit/c3664a5b8cc595f42b0f8f23acfb2a98b86ed7ff) |
+| Matheus | Revisão documental | [83a9bf5](https://github.com/arthurfp-code/SOC-unisul/commit/83a9bf5b102ffb9ad12ee1063e0c9c46be3730af) e [7de7c68](https://github.com/arthurfp-code/SOC-unisul/commit/7de7c68b85b4960e1a07cbcdf4c0eb5fda670c7e) |
+| Juan | Revisão documental | [83a9bf5](https://github.com/arthurfp-code/SOC-unisul/commit/83a9bf5b102ffb9ad12ee1063e0c9c46be3730af) e [7de7c68](https://github.com/arthurfp-code/SOC-unisul/commit/7de7c68b85b4960e1a07cbcdf4c0eb5fda670c7e) |
+| Arthur | Elaboração do documento Markdown da Sprint 1 | [b4292f7](https://github.com/arthurfp-code/SOC-unisul/commit/b4292f763668ca2d7ed38d4981ba5ada68f35f6e), [e28f36e](https://github.com/arthurfp-code/SOC-unisul/commit/e28f36e6cbd68399c7f5d6279a1e5dd4c4a91cbd) e [a6f5f67](https://github.com/arthurfp-code/SOC-unisul/commit/a6f5f67f0a6232a7718b5d668362172583d0a1a2) |
 ## Artefatos que registram o trabalho
 
 - [Relatório da Sprint 1](sprint-1-estrategia-escopo.md): problema, público, personas, similares, requisitos, escopo e fluxo.
