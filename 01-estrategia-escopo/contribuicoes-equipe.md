@@ -16,10 +16,10 @@ A participação de todos na construção do projeto foi relatada pelo grupo. Pa
 
 | Integrante | Participação informada | Contribuição específica e evidência |
 | --- | --- | --- |
-| Rafael | Colaboração na elaboração da Sprint 1 | A confirmar com o integrante; vincular trecho, comentário ou artefato pertinente |
-| Matheus | Colaboração na elaboração da Sprint 1 | A confirmar com o integrante; vincular trecho, comentário ou artefato pertinente |
-| Juan | Colaboração na elaboração da Sprint 1 | A confirmar com o integrante; vincular trecho, comentário ou artefato pertinente |
-| Arthur | Colaboração na elaboração da Sprint 1 | A confirmar com o integrante; vincular trecho, comentário ou artefato pertinente |
+| Rafael | Colaboração na elaboração da Sprint 1 |READ ME e ideias |
+| Matheus | Colaboração na elaboração da Sprint 1 | Revisão documental |
+| Juan | Colaboração na elaboração da Sprint 1 | Revisão documental |
+| Arthur | Colaboração na elaboração da Sprint 1 | Markdown sprint 1 |
 
 ### Como registrar a confirmação
 
