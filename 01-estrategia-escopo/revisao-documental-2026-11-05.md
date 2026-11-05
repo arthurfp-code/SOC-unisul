@@ -71,4 +71,3 @@ Essas decisões detalham o documento de origem. Não representam funcionalidades
 - [Issue #2](https://github.com/arthurfp-code/SOC-unisul/issues/2)
 - [Histórico de commits](https://github.com/arthurfp-code/SOC-unisul/commits/main/)
 
-Este registro foi preparado com base nos materiais existentes no repositório. A publicação e a identificação do commit desta atualização devem ser adicionadas à issue #2 após o envio das alterações para o GitHub.
