@@ -1,21 +1,53 @@
 # SOC-unisul
 
-Atividade ADS unisul - Frontend de um site de monitoramento de segurança
+Projeto acadêmico desenvolvido para a unidade curricular
+de IHC & UX — A3 2026.2, da Unisul.
 
-## Sobre o tema
+## Sobre o projeto
 
-SOC significa Security Operations Center, que é o centro de monitoramento e resposta à segurança de uma empresa. Ele acompanha possíveis ameaças, acessos suspeitos, tentativas de invasão e qualquer evento que possa comprometer os sistemas.
+O SOC-unisul propõe uma interface web para monitoramento
+de segurança da informação, com foco na organização de
+alertas, visualização de indicadores e consulta de eventos.
 
-A problemática é que as organizações recebem muitos alertas e dados de segurança diariamente. Sem uma interface organizada, essas informações ficam difíceis de interpretar e podem atrasar a resposta a incidentes. Por isso, o frontend de um SOC precisa ser claro, funcional e fácil de acompanhar.
+O projeto busca facilitar a identificação de alertas
+prioritários e a compreensão das informações apresentadas
+por meio de uma interface clara e intuitiva.
 
-## Que problema ou tarefa está em jogo?
+## Objetivo
 
-A tarefa é desenvolver um frontend completo de um site voltado para monitoramento de segurança. A ideia é criar uma interface que ajude profissionais de segurança a acompanhar o estado dos sistemas, visualizar alertas, analisar dados e tomar decisões mais rápidas.
+Projetar um protótipo de interface para um Security
+Operations Center (SOC), aplicando conceitos de
+Interação Humano-Computador e Experiência do Usuário.
 
-## Que evidência ou artefato será produzido?
+## Escopo acadêmico
 
-Será produzido um site completo com dashboard, cards de métricas, área de alertas, histórico de eventos e layout responsivo. O projeto deve ter uma aparência profissional, clara e voltada para o tema de cibersegurança.
+O projeto tem foco em:
 
-## Como saberemos que o resultado ficou pronto?
+- Dashboard com indicadores fictícios.
+- Lista de alertas simulados.
+- Filtros por severidade e estado.
+- Pesquisa de eventos.
+- Visualização dos detalhes de alertas.
+- Estados de carregamento, erro e ausência de resultados.
+- Organização da navegação e dos fluxos de interação.
+- Avaliação da usabilidade do protótipo.
 
-O projeto estará concluído quando o site estiver funcionando corretamente, com layout bem organizado, navegação intuitiva, responsividade em diferentes telas e visual profissional. Também será um sinal de finalização quando todos os elementos principais estiverem desenvolvidos e prontos para apresentação.
+Os dados utilizados são fictícios. O projeto não realiza
+monitoramento real, coleta de logs ou detecção de ameaças.
+
+## Integrantes
+
+- Rafael
+- Matheus
+- Juan
+- Arthur
+- [Nome do quinto integrante]
+
+## Documentação das Sprints
+
+- [Sprint 1 — Estratégia & Escopo](./01-estrategia-escopo/sprint-1-estrategia-escopo.md)
+- [Sprint 2 — Estrutura](./02-estrutura/sprint-2-estrutura.md)
+
+## Repositório
+
+https://github.com/arthurfp-code/SOC-unisul
