@@ -21,20 +21,12 @@ A participação de todos na construção do projeto foi relatada pelo grupo. Pa
 | Juan | Colaboração na elaboração da Sprint 1 | Revisão documental |
 | Arthur | Colaboração na elaboração da Sprint 1 | Markdown sprint 1 |
 
-### Como registrar a confirmação
-
-Cada integrante pode comentar na [issue #2](https://github.com/arthurfp-code/SOC-unisul/issues/2) com uma frase objetiva, informando **qual parte ajudou a elaborar ou revisar** e **qual arquivo ou seção representa essa contribuição**. Não é necessário criar commits artificiais em contas diferentes. O comentário real do integrante, junto do documento versionado, permite esclarecer a autoria de forma mais fiel.
-
-Exemplo de estrutura (preencher com o que de fato aconteceu):
-
-> Participei de [atividade ou seção]. Minha contribuição aparece em [arquivo/seção]. Conferi o texto da Sprint 1 em 05/11 e [aprovação ou correção realizada].
-
 ## Artefatos que registram o trabalho
 
 - [Relatório da Sprint 1](sprint-1-estrategia-escopo.md): problema, público, personas, similares, requisitos, escopo e fluxo.
 - [Revisão documental de 05/11](revisao-documental-2026-11-05.md): verificação de coerência e decisões para a continuidade do projeto.
 - [Issue #1](https://github.com/arthurfp-code/SOC-unisul/issues/1): entrega inicial e histórico do fechamento da Sprint 1.
-- [Histórico de commits](https://github.com/arthurfp-code/SOC-unisul/commits/main/): registro de publicação dos arquivos; não equivale, sozinho, a uma lista de participantes.
+- [Histórico de commits](https://github.com/arthurfp-code/SOC-unisul/commits/main/): registro de publicação dos arquivos.
 
 ## Situação de confirmação
 
@@ -44,4 +36,3 @@ Exemplo de estrutura (preencher com o que de fato aconteceu):
 - [x] Cada integrante confirmou sua contribuição específica e o trecho/artefato correspondente.
 - [x] A revisão coletiva foi confirmada e registrada por quem a realizou.
 
-As confirmações pendentes podem ser acrescentadas a este arquivo e vinculadas à issue #2, sem alterar a autoria dos commits antigos.
