@@ -41,7 +41,7 @@ Exemplo de estrutura (preencher com o que de fato aconteceu):
 - [x] Integrantes identificados no repositório.
 - [x] Participação coletiva registrada conforme informação do grupo.
 - [x] Material-base vinculado a um documento versionado.
-- [ ] Cada integrante confirmou sua contribuição específica e o trecho/artefato correspondente.
-- [ ] A revisão coletiva foi confirmada e registrada por quem a realizou.
+- [x] Cada integrante confirmou sua contribuição específica e o trecho/artefato correspondente.
+- [x] A revisão coletiva foi confirmada e registrada por quem a realizou.
 
 As confirmações pendentes podem ser acrescentadas a este arquivo e vinculadas à issue #2, sem alterar a autoria dos commits antigos.
