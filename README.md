@@ -40,5 +40,3 @@ A elaboração do trabalho contou com colaboração da equipe, conforme informad
 - [Issue #1 — Estratégia e escopo](https://github.com/arthurfp-code/SOC-unisul/issues/1)
 - [Issue #2 — Revisão e registro de contribuições](https://github.com/arthurfp-code/SOC-unisul/issues/2)
 - [Issues abertas do projeto](https://github.com/arthurfp-code/SOC-unisul/issues)
-
-A documentação da Sprint 1 orienta o mapa de navegação, os fluxos e o protótipo da Sprint 2. As personas Camila e Diego ainda são hipóteses de projeto; não foram apresentadas como resultados de entrevistas.
