@@ -37,3 +37,20 @@ Os commits abaixo foram publicados pela conta centralizada de Rafael. Eles são 
 - [x] Cada integrante confirmou sua contribuição específica e o trecho/artefato correspondente.
 - [x] A revisão coletiva foi confirmada e registrada por quem a realizou.
 
+## Participação nas Sprints 2 e 3
+
+A publicação dos arquivos continuou sendo feita pela mesma conta do GitHub usada na Sprint 1, por isso o commit identifica quem publicou e não quem produziu cada artefato. A divisão abaixo foi combinada pela equipe e confirmada em reunião.
+
+| Issue | Tarefa | Executor | Revisor | Artefato |
+| --- | --- | --- | --- | --- |
+| [#3](https://github.com/arthurfp-code/SOC-unisul/issues/3) | Mapa de navegação e rótulos | Arthur | Matheus | [mapa-navegacao.md](../02-estrutura/mapa-navegacao.md) |
+| [#4](https://github.com/arthurfp-code/SOC-unisul/issues/4) | Fluxo da tarefa prioritária | Matheus | Juan | [fluxo-tarefa-prioritaria.md](../02-estrutura/fluxo-tarefa-prioritaria.md) |
+| [#5](https://github.com/arthurfp-code/SOC-unisul/issues/5) | Cenários, estados e feedbacks | Juan | Arthur | [cenarios-e-estados.md](../02-estrutura/cenarios-e-estados.md) |
+| [#6](https://github.com/arthurfp-code/SOC-unisul/issues/6) | Wireframes e avaliação exploratória | Rafael | Matheus | [wireframes](../03-esqueleto/wireframes/index.html) e [avaliação](../03-esqueleto/avaliacao-exploratoria.md) |
+
+- Revisão do mapa e do fluxo: Matheus e Juan, discutidos no encontro de 12/11.
+- Revisão dos cenários: Arthur, ajustou os termos de severidade para os mesmos do mapa.
+- Revisão dos wireframes: Matheus, com comentários sobre rótulos e mensagens de erro.
+- Avaliação exploratória de 19/11: Rafael, Arthur e Matheus; Juan revisou o registro.
+
+
