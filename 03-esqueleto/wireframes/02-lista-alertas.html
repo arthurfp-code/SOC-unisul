@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wireframe — Lista de alertas — SOC-unisul</title>
+  <link rel="stylesheet" href="wireframe.css">
+</head>
+<body>
+  <header class="topo">
+    <strong>SOC-unisul / wireframe</strong>
+    <nav>
+      <a href="index.html">Índice</a>
+      <a href="01-visao-geral.html">Visão geral</a>
+      <a href="02-lista-alertas.html">Alertas</a>
+      <a href="03-detalhe-alerta.html">Detalhe</a>
+      <a href="04-estados.html">Estados</a>
+    </nav>
+  </header>
+
+  <main class="pagina">
+    <p class="sub">Tela 2 de 4 · baixa fidelidade · Sprint 3</p>
+    <h1>Alertas</h1>
+    <p class="sub">Lista com filtros aplicados: Severidade Alta e Estado Aberto.</p>
+    <span class="aviso-dados">Dados de demonstração · Horário de Brasília (UTC-3)</span>
+
+    <div class="filtros">
+      <div class="campo-linha">
+        <div class="campo">
+          <label for="pesquisa">Pesquisar</label>
+          <input id="pesquisa" type="text" placeholder="ID do alerta ou texto">
+        </div>
+        <div class="campo">
+          <label for="severidade">Severidade</label>
+          <select id="severidade">
+            <option>Todas</option>
+            <option selected>Alta</option>
+            <option>Média</option>
+            <option>Baixa</option>
+          </select>
+        </div>
+        <div class="campo">
+          <label for="estado">Estado</label>
+          <select id="estado">
+            <option>Todos</option>
+            <option selected>Aberto</option>
+            <option>Em análise</option>
+            <option>Resolvido</option>
+          </select>
+        </div>
+        <span class="botao">Buscar</span>
+        <span class="botao">Limpar filtros</span>
+      </div>
+      <div class="chips">
+        Filtros aplicados:
+        <span class="chip">Alta ✕</span>
+        <span class="chip">Aberto ✕</span>
+      </div>
+    </div>
+
+    <p class="contagem">6 alertas encontrados</p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Severidade</th>
+          <th>Estado</th>
+          <th>Ativo afetado</th>
+          <th>Horário do evento</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="id">ALT-0001</td>
+          <td><span class="etiqueta alta">Alta</span></td>
+          <td><span class="etiqueta">Aberto</span></td>
+          <td>srv-app-03</td>
+          <td class="id">12/11/2026 14:35</td>
+        </tr>
+        <tr>
+          <td class="id">ALT-0004</td>
+          <td><span class="etiqueta alta">Alta</span></td>
+          <td><span class="etiqueta">Aberto</span></td>
+          <td>gw-perimetral-01</td>
+          <td class="id">12/11/2026 11:02</td>
+        </tr>
+        <tr>
+          <td class="id">ALT-0007</td>
+          <td><span class="etiqueta alta">Alta</span></td>
+          <td><span class="etiqueta">Aberto</span></td>
+          <td>srv-email-02</td>
+          <td class="id">12/11/2026 09:47</td>
+        </tr>
+        <tr>
+          <td class="id">ALT-0011</td>
+          <td><span class="etiqueta alta">Alta</span></td>
+          <td><span class="etiqueta">Aberto</span></td>
+          <td>pc-financeiro-15</td>
+          <td class="id">11/11/2026 18:20</td>
+        </tr>
+        <tr>
+          <td class="id">ALT-0013</td>
+          <td><span class="etiqueta alta">Alta</span></td>
+          <td><span class="etiqueta">Aberto</span></td>
+          <td>srv-app-01</td>
+          <td class="id">11/11/2026 16:58</td>
+        </tr>
+        <tr>
+          <td class="id">ALT-0018</td>
+          <td><span class="etiqueta alta">Alta</span></td>
+          <td><span class="etiqueta">Aberto</span></td>
+          <td>vpn-gateway</td>
+          <td class="id">11/11/2026 08:11</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p class="sub" style="margin-top:10px">Clique em um registro para abrir os detalhes. Os filtros permanecem ativos ao voltar.</p>
+    <p>
+      <a class="botao" href="01-visao-geral.html">Voltar para a visão geral</a>
+      <a class="botao primario" href="03-detalhe-alerta.html">Abrir ALT-0001 (detalhe)</a>
+    </p>
+
+    <aside class="notas">
+      <h3>Notas de projeto</h3>
+      <ol>
+        <li><span class="nota-num">1</span>Filtros no topo da lista, com rótulos "Severidade" e "Estado" iguais aos do mapa de navegação (RUA04).</li>
+        <li><span class="nota-num">2</span>Os chips mostram quais filtros estão ativos e permitem remover cada um sem perder o restante do contexto (RF05).</li>
+        <li><span class="nota-num">3</span>Severidade sempre com palavra na etiqueta: fundo escuro, claro ou vazio reforçam, mas não substituem o texto (RUA02).</li>
+        <li><span class="nota-num">4</span>Contagem acima da tabela, atualizada a cada filtro, evita divergência entre indicador e lista (RC04).</li>
+        <li><span class="nota-num">5</span>Rodapé com fuso horário e aviso de dados fictícios (RC01, RC06).</li>
+      </ol>
+    </aside>
+
+    <p class="rodape">Wireframe de baixa fidelidade — Sprint 3 — não representa o acabamento visual final.</p>
+  </main>
+</body>
+</html>

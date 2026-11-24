@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wireframe — Visão geral — SOC-unisul</title>
+  <link rel="stylesheet" href="wireframe.css">
+</head>
+<body>
+  <header class="topo">
+    <strong>SOC-unisul / wireframe</strong>
+    <nav>
+      <a href="index.html">Índice</a>
+      <a href="01-visao-geral.html">Visão geral</a>
+      <a href="02-lista-alertas.html">Alertas</a>
+      <a href="03-detalhe-alerta.html">Detalhe</a>
+      <a href="04-estados.html">Estados</a>
+    </nav>
+  </header>
+
+  <main class="pagina">
+    <p class="sub">Tela 1 de 4 · baixa fidelidade · Sprint 3</p>
+    <h1>Visão geral</h1>
+    <p class="sub">Resumo dos alertas do período para quem abre o painel no início do turno.</p>
+    <span class="aviso-dados">Dados de demonstração</span>
+
+    <div class="cartoes">
+      <div class="cartao">
+        <div class="rotulo">Alertas no período</div>
+        <div class="valor">128</div>
+        <div class="periodo">Últimas 24 horas</div>
+      </div>
+      <div class="cartao">
+        <div class="rotulo">Alta severidade</div>
+        <div class="valor">14</div>
+        <div class="periodo">Últimas 24 horas</div>
+      </div>
+      <div class="cartao">
+        <div class="rotulo">Abertos</div>
+        <div class="valor">32</div>
+        <div class="periodo">Últimas 24 horas</div>
+      </div>
+      <div class="cartao">
+        <div class="rotulo">Em análise</div>
+        <div class="valor">18</div>
+        <div class="periodo">Últimas 24 horas</div>
+      </div>
+    </div>
+
+    <h2>Distribuição por severidade</h2>
+    <div class="barras">
+      <div class="barra-linha">
+        <span class="nome">Alta</span>
+        <span class="traco"></span>
+        <span class="qtd">14 alertas</span>
+      </div>
+      <div class="barra-linha">
+        <span class="nome">Média</span>
+        <span class="traco"></span>
+        <span class="qtd">47 alertas</span>
+      </div>
+      <div class="barra-linha">
+        <span class="nome">Baixa</span>
+        <span class="traco"></span>
+        <span class="qtd">67 alertas</span>
+      </div>
+      <p class="sub">Período: últimas 24 horas. Valores fictícios para demonstração.</p>
+    </div>
+
+    <p style="margin-top:20px">
+      <a class="botao primario" href="02-lista-alertas.html">Ver alertas</a>
+    </p>
+
+    <aside class="notas">
+      <h3>Notas de projeto</h3>
+      <ol>
+        <li><span class="nota-num">1</span>Cada indicador traz título, valor e período no mesmo bloco, para não depender de memória da pessoa (RC04, RC05).</li>
+        <li><span class="nota-num">2</span>A distribuição repete o número em texto ao lado da barra: a cor não é o único sinal (RUA02, RUA08).</li>
+        <li><span class="nota-num">3</span>Um único botão de saída para a lista evita caminhos duplicados na tarefa principal.</li>
+        <li><span class="nota-num">4</span>Sem menu lateral: o protótipo tem três telas e o caminho de volta é sempre explícito.</li>
+      </ol>
+    </aside>
+
+    <p class="rodape">Wireframe de baixa fidelidade — Sprint 3 — não representa o acabamento visual final.</p>
+  </main>
+</body>
+</html>

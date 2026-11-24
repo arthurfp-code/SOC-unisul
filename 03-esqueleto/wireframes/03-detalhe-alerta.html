@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wireframe — Detalhe do alerta — SOC-unisul</title>
+  <link rel="stylesheet" href="wireframe.css">
+</head>
+<body>
+  <header class="topo">
+    <strong>SOC-unisul / wireframe</strong>
+    <nav>
+      <a href="index.html">Índice</a>
+      <a href="01-visao-geral.html">Visão geral</a>
+      <a href="02-lista-alertas.html">Alertas</a>
+      <a href="03-detalhe-alerta.html">Detalhe</a>
+      <a href="04-estados.html">Estados</a>
+    </nav>
+  </header>
+
+  <main class="pagina">
+    <p class="sub">Tela 3 de 4 · baixa fidelidade · Sprint 3</p>
+
+    <a class="voltar" href="02-lista-alertas.html">← Voltar para a lista (filtros mantidos)</a>
+
+    <h1>ALT-0001</h1>
+    <p class="sub">
+      <span class="etiqueta alta">Alta</span>
+      <span class="etiqueta">Aberto</span>
+      &nbsp;Tentativa de acesso suspeita detectada
+    </p>
+    <span class="aviso-dados">Dados de demonstração</span>
+
+    <div class="detalhe">
+      <div class="linha-campo">
+        <span class="rotulo">Ativo afetado</span>
+        <span class="valor">srv-app-03 (Servidor de aplicações)</span>
+      </div>
+      <div class="linha-campo">
+        <span class="rotulo">Horário do evento</span>
+        <span class="valor">12/11/2026 14:35 — Horário de Brasília (UTC-3)</span>
+      </div>
+      <div class="linha-campo">
+        <span class="rotulo">Origem</span>
+        <span class="valor">192.168.10.42 (rede interna)</span>
+      </div>
+      <div class="linha-campo">
+        <span class="rotulo">Estado</span>
+        <span class="valor">Aberto</span>
+      </div>
+      <div class="linha-campo">
+        <span class="rotulo">Descrição</span>
+        <span class="valor">Sequência de tentativas de login com credenciais inválidas em 4 minutos. Evento fictício para demonstração.</span>
+      </div>
+      <div class="linha-campo">
+        <span class="rotulo">Registrado em</span>
+        <span class="valor">12/11/2026 14:36</span>
+      </div>
+
+      <div class="acoes">
+        <span class="botao primario">Marcar em análise</span>
+        <span class="botao">Voltar para a lista</span>
+        <span class="sub" style="margin:0">Ação simulada: confirmação com opção de desfazer.</span>
+      </div>
+    </div>
+
+    <div class="confirmacao">
+      <strong>Alerta ALT-0001 marcado como Em análise.</strong>
+      <span class="botao">Desfazer</span>
+      <span class="sub" style="margin:0">Aviso desaparece após 5 segundos.</span>
+    </div>
+
+    <aside class="notas">
+      <h3>Notas de projeto</h3>
+      <ol>
+        <li><span class="nota-num">1</span>Retorno explícito no topo, com a promessa de manter os filtros: é a etapa final da tarefa prioritária (RF10).</li>
+        <li><span class="nota-num">2</span>"Ativo afetado" e "Horário do evento" usam as mesmas palavras do enunciado da tarefa, reduzindo tradução mental (RUA04).</li>
+        <li><span class="nota-num">3</span>Identificador, severidade e estado repetidos da lista: a pessoa confirma que abriu o registro esperado (RF03).</li>
+        <li><span class="nota-num">4</span>Ação simulada com confirmação e "Desfazer": previne erro e evita perda do contexto (RF08, RUA05).</li>
+        <li><span class="nota-num">5</span>Sem ações de resposta ou bloqueio: fora do escopo desta versão (seção 8 da Sprint 1).</li>
+      </ol>
+    </aside>
+
+    <p class="rodape">Wireframe de baixa fidelidade — Sprint 3 — não representa o acabamento visual final.</p>
+  </main>
+</body>
+</html>

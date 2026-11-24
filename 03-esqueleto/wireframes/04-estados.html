@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wireframe — Estados da lista — SOC-unisul</title>
+  <link rel="stylesheet" href="wireframe.css">
+</head>
+<body>
+  <header class="topo">
+    <strong>SOC-unisul / wireframe</strong>
+    <nav>
+      <a href="index.html">Índice</a>
+      <a href="01-visao-geral.html">Visão geral</a>
+      <a href="02-lista-alertas.html">Alertas</a>
+      <a href="03-detalhe-alerta.html">Detalhe</a>
+      <a href="04-estados.html">Estados</a>
+    </nav>
+  </header>
+
+  <main class="pagina">
+    <p class="sub">Tela 4 de 4 · baixa fidelidade · Sprint 3</p>
+    <h1>Estados da lista de alertas</h1>
+    <p class="sub">Os quatro estados da área de resultados. Em todos eles, filtros, rótulos e cabeçalho continuam visíveis.</p>
+
+    <div class="paineis">
+      <section class="painel">
+        <h3>1. Carregando</h3>
+        <p class="desc">Gatilho: abrir a lista ou trocar um filtro.</p>
+        <div class="filtros" style="margin-top:0">
+          <div class="chips" style="margin-top:0">
+            Filtros aplicados:
+            <span class="chip">Alta ✕</span>
+            <span class="chip">Aberto ✕</span>
+          </div>
+        </div>
+        <div class="esqueleto">
+          Carregando alertas…
+          <div class="barra"></div>
+          <div class="barra"></div>
+          <div class="barra"></div>
+        </div>
+      </section>
+
+      <section class="painel">
+        <h3>2. Erro de consulta</h3>
+        <p class="desc">Gatilho: falha simulada ao carregar os registros.</p>
+        <div class="filtros" style="margin-top:0">
+          <div class="chips" style="margin-top:0">
+            Filtros aplicados:
+            <span class="chip">Alta ✕</span>
+            <span class="chip">Aberto ✕</span>
+          </div>
+        </div>
+        <div class="mensagem">
+          Não foi possível carregar os alertas. Verifique a conexão e tente novamente.
+          <span class="acao botao">Tentar novamente</span>
+        </div>
+      </section>
+
+      <section class="painel">
+        <h3>3. Lista vazia</h3>
+        <p class="desc">Gatilho: filtros ou pesquisa sem correspondência.</p>
+        <div class="filtros" style="margin-top:0">
+          <div class="chips" style="margin-top:0">
+            Filtros aplicados:
+            <span class="chip">Alta ✕</span>
+            <span class="chip">Resolvido ✕</span>
+          </div>
+        </div>
+        <div class="mensagem">
+          Nenhum alerta encontrado com os filtros aplicados: Alta, Resolvido.
+          <span class="acao botao">Limpar filtros</span>
+        </div>
+      </section>
+
+      <section class="painel">
+        <h3>4. Sem resultados na pesquisa</h3>
+        <p class="desc">Gatilho: pesquisa por identificador inexistente.</p>
+        <div class="filtros" style="margin-top:0">
+          <div class="campo" style="margin-bottom:8px">
+            <label for="pesquisa-vazia">Pesquisar</label>
+            <input id="pesquisa-vazia" type="text" value="ALT-9999">
+          </div>
+        </div>
+        <div class="mensagem">
+          Nenhum alerta corresponde a "ALT-9999".
+          <span class="acao botao">Limpar pesquisa</span>
+        </div>
+      </section>
+    </div>
+
+    <div class="confirmacao">
+      <strong>Alerta ALT-0001 marcado como Em análise.</strong>
+      <span class="botao">Desfazer</span>
+      <span class="sub" style="margin:0">Confirmação de ação simulada, visível por 5 segundos.</span>
+    </div>
+
+    <aside class="notas">
+      <h3>Notas de projeto</h3>
+      <ol>
+        <li><span class="nota-num">1</span>Toda mensagem diz o que houve e oferece a ação de recuperação; nenhum estado é beco sem saída (RF07, RUA05).</li>
+        <li><span class="nota-num">2</span>Filtros permanecem na tela durante carregamento, erro e vazio: a pessoa não perde o contexto (RF05, RF10).</li>
+        <li><span class="nota-num">3</span>A mensagem de lista vazia repete os filtros aplicados por extenso, para que a pessoa saiba o que mudar.</li>
+        <li><span class="nota-num">4</span>Erro de pesquisa preserva o termo digitado, evitando digitação repetida (prevenção de erros).</li>
+      </ol>
+    </aside>
+
+    <p class="rodape">Wireframe de baixa fidelidade — Sprint 3 — não representa o acabamento visual final.</p>
+  </main>
+</body>
+</html>

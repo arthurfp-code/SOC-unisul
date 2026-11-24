@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wireframes — SOC-unisul — Sprint 3</title>
+  <link rel="stylesheet" href="wireframe.css">
+</head>
+<body>
+  <header class="topo">
+    <strong>SOC-unisul / wireframe</strong>
+    <nav>
+      <a href="index.html">Índice</a>
+      <a href="01-visao-geral.html">Visão geral</a>
+      <a href="02-lista-alertas.html">Alertas</a>
+      <a href="03-detalhe-alerta.html">Detalhe</a>
+      <a href="04-estados.html">Estados</a>
+    </nav>
+  </header>
+
+  <main class="pagina">
+    <p class="sub">Sprint 3 — Esqueleto · baixa fidelidade</p>
+    <h1>Wireframes do fluxo de alertas</h1>
+    <p>
+      Telas que cobrem a tarefa prioritária completa: encontrar um alerta de alta severidade
+      ainda aberto, consultar o ativo afetado e o horário do evento e voltar para a lista
+      com os filtros preservados.
+    </p>
+    <span class="aviso-dados">Dados fictícios de demonstração</span>
+
+    <h2>Telas</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Arquivo</th>
+          <th>Tela</th>
+          <th>Cobertura</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="id"><a href="01-visao-geral.html">01-visao-geral.html</a></td>
+          <td>Visão geral com indicadores</td>
+          <td>RF01, RF09 — entrada da tarefa de Diego</td>
+        </tr>
+        <tr>
+          <td class="id"><a href="02-lista-alertas.html">02-lista-alertas.html</a></td>
+          <td>Lista com filtros Alta/Aberto</td>
+          <td>RF02, RF04, RF05, RF06 — filtros e resultados</td>
+        </tr>
+        <tr>
+          <td class="id"><a href="03-detalhe-alerta.html">03-detalhe-alerta.html</a></td>
+          <td>Detalhe do alerta ALT-0001</td>
+          <td>RF03, RF08, RF10 — ativo, horário e retorno</td>
+        </tr>
+        <tr>
+          <td class="id"><a href="04-estados.html">04-estados.html</a></td>
+          <td>Carregamento, erro, vazio e confirmação</td>
+          <td>RF07 — estados de interface</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>Percursos possíveis nos wireframes</h2>
+    <ol>
+      <li><a href="01-visao-geral.html">Visão geral</a> → <a href="02-lista-alertas.html">lista filtrada</a> → <a href="03-detalhe-alerta.html">detalhe</a> → volta para a lista com filtros.</li>
+      <li><a href="02-lista-alertas.html">Lista</a> → <a href="04-estados.html">erro de consulta</a> → "Tentar novamente".</li>
+      <li><a href="02-lista-alertas.html">Lista</a> → <a href="04-estados.html">lista vazia</a> → "Limpar filtros".</li>
+    </ol>
+
+    <aside class="notas">
+      <h3>Como estes wireframes se conectam ao restante</h3>
+      <ol>
+        <li><span class="nota-num">1</span>Estrutura das telas: <span class="id">02-estrutura/mapa-navegacao.md</span>.</li>
+        <li><span class="nota-num">2</span>Caminhos, decisões e estados: <span class="id">02-estrutura/fluxo-tarefa-prioritaria.md</span>.</li>
+        <li><span class="nota-num">3</span>Avaliação e melhorias registradas: <span class="id">../avaliacao-exploratoria.md</span>.</li>
+      </ol>
+    </aside>
+
+    <p class="rodape">Wireframe de baixa fidelidade — Sprint 3 — não representa o acabamento visual final.</p>
+  </main>
+</body>
+</html>

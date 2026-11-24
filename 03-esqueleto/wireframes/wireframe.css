@@ -1,0 +1,442 @@
+/* Wireframes — SOC-unisul (Sprint 3)
+   Estilo cinza de baixa fidelidade: blocos, contornos e rótulos.
+   Sem identidade visual definitiva; isso fica para a Sprint 4. */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #f4f4f4;
+  color: #222;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 15px;
+  line-height: 1.45;
+}
+
+a {
+  color: #111;
+}
+
+.topo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  padding: 10px 20px;
+  background: #ddd;
+  border-bottom: 2px solid #999;
+}
+
+.topo strong {
+  font-family: "Courier New", monospace;
+  letter-spacing: 1px;
+}
+
+.topo nav a {
+  margin-left: 14px;
+  text-decoration: none;
+  border-bottom: 1px dashed #777;
+  font-size: 14px;
+}
+
+.pagina {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 24px 20px 60px;
+}
+
+h1 {
+  font-size: 26px;
+  margin: 8px 0 4px;
+}
+
+h2 {
+  font-size: 18px;
+  margin: 28px 0 10px;
+  border-bottom: 1px solid #bbb;
+  padding-bottom: 4px;
+}
+
+.sub {
+  color: #555;
+  font-size: 14px;
+  margin: 0 0 18px;
+}
+
+.aviso-dados {
+  display: inline-block;
+  border: 1px dashed #888;
+  padding: 2px 8px;
+  font-size: 12px;
+  font-family: "Courier New", monospace;
+  color: #555;
+  background: #fff;
+}
+
+/* blocos de indicador */
+.cartoes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 12px;
+  margin: 14px 0;
+}
+
+.cartao {
+  background: #fff;
+  border: 2px solid #999;
+  padding: 12px 14px;
+}
+
+.cartao .rotulo {
+  font-size: 13px;
+  color: #444;
+  text-transform: none;
+}
+
+.cartao .valor {
+  font-size: 30px;
+  font-family: "Courier New", monospace;
+  font-weight: bold;
+}
+
+.cartao .periodo {
+  font-size: 12px;
+  color: #666;
+  border-top: 1px dotted #aaa;
+  margin-top: 6px;
+  padding-top: 4px;
+}
+
+/* barras da distribuição */
+.barras {
+  background: #fff;
+  border: 2px solid #999;
+  padding: 14px;
+}
+
+.barra-linha {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 8px 0;
+  font-size: 14px;
+}
+
+.barra-linha .nome {
+  width: 60px;
+  font-family: "Courier New", monospace;
+}
+
+.barra-linha .traco {
+  flex: 1;
+  height: 14px;
+  background: repeating-linear-gradient(
+    90deg,
+    #666 0 10px,
+    #bbb 10px 20px
+  );
+  border: 1px solid #777;
+}
+
+.barra-linha .qtd {
+  width: 70px;
+  text-align: right;
+  font-family: "Courier New", monospace;
+}
+
+/* filtros e pesquisa */
+.filtros {
+  background: #fff;
+  border: 2px solid #999;
+  padding: 12px 14px;
+  margin-top: 14px;
+}
+
+.campo-linha {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  align-items: flex-end;
+}
+
+.campo label {
+  display: block;
+  font-size: 12px;
+  color: #444;
+  margin-bottom: 3px;
+  font-family: "Courier New", monospace;
+}
+
+.campo input,
+.campo select {
+  border: 1.5px solid #777;
+  background: #fafafa;
+  padding: 6px 8px;
+  font-size: 14px;
+  min-width: 160px;
+}
+
+.botao {
+  display: inline-block;
+  border: 2px solid #333;
+  background: #ddd;
+  padding: 7px 14px;
+  font-size: 14px;
+  text-decoration: none;
+  color: #111;
+  cursor: pointer;
+}
+
+.botao.primario {
+  background: #333;
+  color: #fff;
+}
+
+.chips {
+  margin-top: 12px;
+  font-size: 13px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.chip {
+  border: 1.5px solid #555;
+  background: #eee;
+  padding: 2px 8px;
+  font-family: "Courier New", monospace;
+}
+
+.contagem {
+  margin: 16px 0 6px;
+  font-family: "Courier New", monospace;
+  font-size: 14px;
+}
+
+/* tabela de alertas */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  border: 2px solid #999;
+  font-size: 14px;
+}
+
+th,
+td {
+  border: 1px solid #bbb;
+  padding: 8px 10px;
+  text-align: left;
+}
+
+th {
+  background: #e4e4e4;
+  font-family: "Courier New", monospace;
+  font-size: 12px;
+}
+
+td.id {
+  font-family: "Courier New", monospace;
+}
+
+/* rótulos de severidade/estado com texto, não só cor */
+.etiqueta {
+  display: inline-block;
+  border: 1.5px solid #333;
+  padding: 1px 7px;
+  font-size: 12px;
+  font-family: "Courier New", monospace;
+  background: #fff;
+}
+
+.etiqueta.alta {
+  background: #333;
+  color: #fff;
+}
+
+.etiqueta.media {
+  background: #ccc;
+}
+
+.etiqueta.baixa {
+  background: #fff;
+}
+
+/* detalhe */
+.voltar {
+  display: inline-block;
+  margin-bottom: 14px;
+  border-bottom: 1px dashed #555;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.detalhe {
+  background: #fff;
+  border: 2px solid #999;
+  padding: 16px;
+}
+
+.linha-campo {
+  display: flex;
+  gap: 12px;
+  padding: 8px 0;
+  border-bottom: 1px dotted #aaa;
+}
+
+.linha-campo .rotulo {
+  width: 170px;
+  font-family: "Courier New", monospace;
+  font-size: 13px;
+  color: #444;
+}
+
+.linha-campo .valor {
+  font-weight: bold;
+}
+
+.acoes {
+  margin-top: 16px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* estados */
+.paineis {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
+  margin-top: 14px;
+}
+
+.painel {
+  background: #fff;
+  border: 2px solid #999;
+  padding: 14px;
+}
+
+.painel h3 {
+  margin: 0 0 4px;
+  font-size: 15px;
+  font-family: "Courier New", monospace;
+}
+
+.painel .desc {
+  font-size: 13px;
+  color: #555;
+  margin: 0 0 10px;
+}
+
+.esqueleto {
+  border: 1.5px dashed #999;
+  background: #eee;
+  padding: 10px;
+  font-size: 13px;
+  color: #666;
+}
+
+.esqueleto .barra {
+  height: 12px;
+  background: #d5d5d5;
+  border: 1px solid #bbb;
+  margin: 8px 0;
+}
+
+.mensagem {
+  border: 1.5px solid #777;
+  background: #f7f7f7;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.mensagem .acao {
+  display: inline-block;
+  margin-top: 8px;
+}
+
+.confirmacao {
+  border: 2px solid #333;
+  background: #fff;
+  padding: 10px 14px;
+  margin-top: 16px;
+  font-size: 14px;
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* notas de anotação */
+.notas {
+  background: #fff;
+  border: 2px dashed #888;
+  padding: 12px 16px;
+  margin-top: 28px;
+  font-size: 14px;
+}
+
+.notas h3 {
+  margin-top: 0;
+  font-family: "Courier New", monospace;
+  font-size: 14px;
+}
+
+.notas ol {
+  margin: 6px 0 0;
+  padding-left: 20px;
+}
+
+.notas li {
+  margin: 5px 0;
+}
+
+.nota-num {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  line-height: 18px;
+  text-align: center;
+  background: #222;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 11px;
+  font-family: "Courier New", monospace;
+  margin-right: 6px;
+}
+
+.rodape {
+  margin-top: 34px;
+  font-size: 12px;
+  color: #666;
+  border-top: 1px solid #bbb;
+  padding-top: 8px;
+  font-family: "Courier New", monospace;
+}
+
+@media (max-width: 640px) {
+  .linha-campo {
+    display: block;
+  }
+
+  .linha-campo .rotulo {
+    width: auto;
+    display: block;
+    margin-bottom: 2px;
+  }
+
+  .campo input,
+  .campo select {
+    min-width: 0;
+    width: 100%;
+  }
+
+  .campo {
+    width: 100%;
+  }
+}
